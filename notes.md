@@ -1,0 +1,5 @@
+- style the project (make responsive, mobile first)
+- set up the user auth so when page is reload user is not log out
+- set up a log out for user that is log in
+- set up nodemailer. user a react front-end and a node backend, make        sure the route are set up correctly
+- 

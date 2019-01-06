@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  margin-top: 5rem;
+
+}
+
+/* .card {
+  width: 20rem;
+  height: 20rem;
+  margin: 10px 10px;
+  overflow: auto;
+  transition: width 1.5s, height 1.5s;
+} */
+
+.card-body {
+  max-width: 400px;
+  max-height: 450px;
+}
+
+/* animation for hover effect
+  IF THE IMAGE IS HAVING A SIZE ISSUE CHECK THE INLINE STYLE FOR THE CARD-IMG-TOP
+*/
+
+.card {
+  width: 10rem;
+  height: 10rem;
+  margin: 10px 10px;
+  overflow: auto;
+  transition: width 1.5s, height 1.5s;
+}
+
+ .card:hover {
+  background: whitesmoke;
+  width: 20rem;
+  height: 20rem;
+} 
+
+.card-img-top {
+  margin-top: 10px;
+}
+.dark {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px;
+  margin-left: .2rem;
+  margin-bottom: .2rem;
+}
+
+#more:focus {
+  outline: none;
+}
